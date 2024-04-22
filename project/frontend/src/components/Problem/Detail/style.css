@@ -1,0 +1,32 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.gutter {
+  background: rgba(255, 255, 255, 0.05);
+  /* flex-shrink: 0; */
+}
+
+.gutter-horizontal {
+  cursor: ew-resize;
+}
+
+.gutter-vertical {
+  cursor: ns-resize;
+}
+.comp {
+  background: red;
+  color: white;
+  height: 400px;
+  /* display: inline-block; */
+}
+.comp2 {
+  background: green;
+  color: white;
+  height: 400px;
+  /* display: inline-block; */
+}
+.wrap {
+  display: flex;
+}
